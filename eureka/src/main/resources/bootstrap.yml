@@ -1,0 +1,46 @@
+## 多节点部署eureka
+#spring:
+#  application:
+#    name: eureka
+#  profiles: server1
+#server:
+#  port: 1111
+#eureka:
+#  instance:
+#    hostname: server1
+#  client:
+#    service-url:
+#      defaultZone: http://server2:2222,http://server3:3333
+#
+#---
+#spring:
+#  application:
+#    name: eureka
+#  profiles: server2
+#server:
+#  port: 2222
+#eureka:
+#  instance:
+#    hostname: server2
+#  client:
+#    service-url:
+#      defaultZone: http://server1:1111,http://server3:3333
+#
+#---
+#spring:
+#  application:
+#    name: eureka
+#  profiles: server3
+#server:
+#  port: 3333
+#eureka:
+#  instance:
+#    hostname: server3
+#  client:
+#    service-url:
+#      defaultZone: http://server1:1111,http://server2:2222
+#
+# 启动方式:
+# java -jar eureka-1.0-SNAPSHOT.jar --spring.profiles.active=server1
+# java -jar eureka-1.0-SNAPSHOT.jar --spring.profiles.active=server2
+# java -jar eureka-1.0-SNAPSHOT.jar --spring.profiles.active=server3
