@@ -2,6 +2,7 @@
 Spring Cloud框架实例
 
 ## 测试用表
+```java
 -- 数据库
 CREATE DATABASE sc;
 
@@ -39,3 +40,4 @@ CREATE TABLE `course` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `key_course_name` (`course_name`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT COMMENT='课程表';
+```
