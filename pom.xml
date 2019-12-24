@@ -11,6 +11,7 @@
     <modules>
         <module>eureka</module>
         <module>zuul</module>
+        <module>springcloud-service</module>
     </modules>
 
     <!-- 项目打包类型,默认为jar,聚合项目父模块必须为pom -->
