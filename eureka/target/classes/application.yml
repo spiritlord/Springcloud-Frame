@@ -1,0 +1,18 @@
+# 单节点部署eureka
+spring:
+  application:
+    name: eureka
+
+server:
+  port: 1111
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    # 是否从Eureka Server中获取注册信息(单节点部署需要设置为false)
+    fetch-registry: false
+    # 是否将自己注册到Eureka Server(单节点部署需要设置为false)
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}

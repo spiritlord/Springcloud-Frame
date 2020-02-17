@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c30eeeed-08f9-46cf-885f-4329a36f2320" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-service/commons/commons.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-service/commons/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-service/commons/src/main/java/com/springcloud/frame/CourseInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-service/commons/src/main/java/com/springcloud/frame/CourseInfosRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-service/commons/src/main/java/com/springcloud/frame/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-service/springcloud-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-service/course/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-service/course/src/main/java/com/springcloud/frame/CourseApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-service/course/src/main/java/com/springcloud/frame/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-service/course/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-service/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +60,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../insight" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../anime" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -88,7 +84,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ZuulGatewayApplication">
+  <component name="RunManager" selected="Spring Boot.CourseApplication">
+    <configuration name="CourseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="course" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.frame.CourseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="eureka" />
       <extension name="coverage">
@@ -117,8 +120,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ZuulGatewayApplication" />
         <item itemvalue="Spring Boot.EurekaApplication" />
+        <item itemvalue="Spring Boot.ZuulGatewayApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +139,10 @@
       <workItem from="1576835848712" duration="31000" />
       <workItem from="1576835885021" duration="9000" />
       <workItem from="1576836345437" duration="137000" />
-      <workItem from="1577153107962" duration="2971000" />
+      <workItem from="1577153107962" duration="3159000" />
+      <workItem from="1577237875015" duration="1145000" />
+      <workItem from="1577263013461" duration="1548000" />
+      <workItem from="1577350308128" duration="1652000" />
     </task>
     <servers />
   </component>

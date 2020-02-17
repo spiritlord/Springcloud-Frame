@@ -1,0 +1,29 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1111/eureka/
+
+server:
+  port: 2222
+  servlet:
+    context-path: /course
+
+spring:
+  application:
+    name: course
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate.format_sql: true
+    open-in-view: false
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3307/content-resource-management?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: rootroot
+    driver-class-name: com.mysql.jdbc.Driver
+    tomcat:
+      max-active: 4
+      min-idle: 2
+      initial-size: 2
